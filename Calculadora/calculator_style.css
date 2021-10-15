@@ -1,0 +1,120 @@
+
+html {
+    font-size: 10px;
+}
+
+body{
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', san-serif;
+    font-weight:normal;
+}
+
+#calculator{
+    border: solid 1px rgba(153, 153, 153, 0.753);
+    width: 50rem;
+    margin: auto;
+    height: 42.3rem;
+}
+
+#input{ 
+    font-size: 3rem;
+
+    border: solid 1px rgba(128, 128, 128, 0.63);
+    overflow-x:auto;
+
+    width: 43rem;
+    height: 6rem;
+    margin: 2rem auto;
+    margin-right: 3.5rem;
+    padding-right: 1rem;
+
+    text-align: right;
+    line-height: 200%;
+
+    transition: all .2s;
+} #input:hover {
+    box-shadow: inset 0rem 0.1rem 0.4rem 0rem rgba(0,0,0,0.2)
+}
+
+#buttons{
+    margin-left: -1rem ;
+    user-select:none;
+    transition: all 1s;
+}
+
+.operators{
+    width: fit-content;
+    
+    margin: 1rem 0.6rem; 
+    margin-left: 2.8rem;
+    text-align: center;
+}.operators div{
+    display: inline-block;
+
+    width: 9.5rem;
+    height: 4rem;
+    border: solid 0.1rem rgb(161, 161, 161);
+    
+    margin: 0.9rem 0.6rem 0.3rem;
+    text-align: center;
+    line-height: 40px;
+           
+    background-color: rgba(207, 207, 207, 0.5);
+
+    cursor: pointer;
+    transition: all .2s;
+}.operators div:hover{
+    border-color: rgb(95, 95, 95);
+    box-shadow: 0px 1px 4px 0px grey;
+}
+
+#left-panel{
+    display: inline-block;
+
+    margin-left: 2.8rem;
+    margin-right: 0.6rem;
+}
+
+.numbers div{
+    display: inline-block;
+    
+    width: 9.5rem;
+    height: 4rem;
+
+    background-color: rgba(231, 231, 231, 0.384);
+    border: solid 0.1rem rgba(158, 158, 158, 0.699);
+
+    margin: 1rem 0.6rem;
+    text-align: center;
+    line-height: 40px;
+
+    cursor: pointer;
+    transition: all .2s;
+}.numbers div:hover{
+    box-shadow: 0px 0.7px 4px 0px grey;
+    border-color:rgba(128, 128, 128, 0.87);
+}
+
+#equal {
+    display: inline-block;
+
+    border: solid 1px;
+    
+    width: 18.63%;
+    /* height:20rem; */
+
+    padding: 10.2rem 0rem;
+    margin: 1rem 0rem;
+    vertical-align: top;
+    text-align: center;
+
+    cursor: pointer;
+
+    color: white;
+    background-color: rgb(71, 138, 238);
+    border-color: rgba(33, 33, 250, 0.747);
+
+    transition: background 0.2s;
+}#equal:hover{
+      background-color:rgb(34, 108, 219);
+}
