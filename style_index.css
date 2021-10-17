@@ -1,0 +1,39 @@
+
+body{
+    background-color: #06050B;
+    font-family: Open Sans;
+}
+
+header{
+    margin: auto;
+    width:fit-content;
+    padding:10px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tit{
+    width: fit-content;
+    margin:auto;
+    padding-top: 10px;
+}
+
+.div_conteudo{
+    background-color: #652CC2;
+    color: white;
+    padding: 10px;
+    width: 420px;
+    display:flex;
+    margin: auto;
+}
+
+.div_icone{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 12px;
+}
+
+.div_info{
+    padding: 5px;
+}
+
