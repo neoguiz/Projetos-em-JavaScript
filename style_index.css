@@ -1,6 +1,8 @@
 
 body{
-    font-family: Lato, Helvetica, Arial;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #040307;
+    color: #652CC2;
 }
 
 main{
@@ -12,37 +14,58 @@ main{
 h1{
     width:100%;
     font-size: 44px;
+    color: #F1F1F1;
 }
 h3{
     font-size: 20px;
+    color: #040307;
 }
 
 p{
     font-weight: 500;
     font-size: 17px;
+    color: #1D1C1E;
 }
 
 input[type="button"]{
     font-size: 14px;
     height: 30px;
     width: 150px;
-    border: 1px solid #000000;
+    background-color: #040307;
+    color: #F1F1F1;
+    border: 0px solid #000000;
     border-radius: 7px;
+    transition: all 0.5s
+}input[type="button"]:hover{
+    background-color: #252525;
+    color: #FFFFFF;
 }
 
 #desc{
-    font-size: 22px;
+    font-size: 25px;
+    color: #C6C6C6;
+    margin-bottom: 15px;
 }
 
 #projetos{
-    margin-top: 50px;
+    margin-top: 10px;
+    padding: 25px;
+
     text-align: center;
     display:inline-flex;
     justify-content:space-around;
+
+    background:#7D37EC;
+    
+    border-radius: 15px;
+
 }#projetos div{
     width:28%;
-    padding: 10px;
-    
+    padding: 15px;
+
+    border-radius: 15px;
+
+    background-color: #FBFFF1;
 }
 
 .projeto p{
